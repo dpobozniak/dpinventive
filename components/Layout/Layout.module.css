@@ -5,16 +5,19 @@
   min-height: 100vh;
 }
 
-.main {
+.wrapper {
   display: grid;
-  flex: 1;
   grid-column-gap: 32px;
   grid-template-columns: 1fr min(var(--max-width), calc(100% - 64px)) 1fr;
   grid-template-rows: max-content;
 }
 
-.main > * {
+.wrapper > * {
   grid-column: 2;
+}
+
+.main {
+  flex: 1;
 }
 
 .full {

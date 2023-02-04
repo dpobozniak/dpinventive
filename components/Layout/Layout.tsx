@@ -10,9 +10,9 @@ type TProps = {
 
 export const Wrapper = ({ children }: TProps): JSX.Element => (
   <div className={s.container}>
-    <Header className={s.main} />
-    <main className={s.main}>{children}</main>
-    <Footer className={s.main} />
+    <Header className={s.wrapper} />
+    <main className={`${s.wrapper} ${s.main}`}>{children}</main>
+    <Footer className={s.wrapper} />
   </div>
 );
 

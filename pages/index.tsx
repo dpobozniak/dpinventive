@@ -8,7 +8,10 @@ const Home: NextPage = () => {
     <Layout.Wrapper>
       <Head>
         <title>DPInventive - Web App Development</title>
-        <meta name="description" content="We make web apps" />
+        <meta
+          name="description"
+          content="We build customized and optimized websites or web apps for personal usage and businesses"
+        />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -72,9 +75,31 @@ const Home: NextPage = () => {
             <h3 className={s.serviceTitle}>Best practices & tools</h3>
             <p>
               These tools include the latest and greatest industry standards,
-              such as <a href="https://reactjs.org/">React</a>,{' '}
-              <a href="https://www.typescriptlang.org/">Typescript</a>,{' '}
-              <a href="https://nextjs.org/">Next.js</a>.
+              such as{' '}
+              <a
+                href="https://reactjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                React
+              </a>
+              ,{' '}
+              <a
+                href="https://www.typescriptlang.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Typescript
+              </a>
+              ,{' '}
+              <a
+                href="https://nextjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Next.js
+              </a>
+              .
             </p>
           </article>
         </div>
