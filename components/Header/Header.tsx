@@ -11,14 +11,12 @@ export const Header = ({ className }: TProps): JSX.Element => (
   <header className={`${s.header} ${className || ''}`}>
     <Layout.FullContent className={s.headerContent}>
       <Link href="/" passHref>
-        <a>
-          <Image
-            src="/dpinventive_logo.svg"
-            width="242"
-            height="30"
-            alt="DPInventive"
-          />
-        </a>
+        <Image
+          src="/dpinventive_logo.svg"
+          width="242"
+          height="30"
+          alt="DPInventive"
+        />
       </Link>
     </Layout.FullContent>
   </header>
